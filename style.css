@@ -1,0 +1,116 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap");
+* {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Quicksand", serif;
+}
+body {
+  background-color: 0xfff1faee;
+}
+a {
+  color: black;
+  text-decoration: none;
+}
+.container {
+  max-width: 1500px;
+  margin: auto;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+
+  padding: 1.5rem;
+  font-size: 1.5rem;
+}
+.navbar .company-name {
+  font-weight: 700;
+  cursor: pointer;
+}
+.navbar .nav-link a {
+  font-size: 1.5rem;
+  margin: 0 10px;
+  opacity: 0.1rem;
+}
+.navbar .nav-link a:hover {
+  opacity: 1rem;
+  text-shadow: 4px 4px 6px rgba(66, 68, 90, 1);
+}
+#profile {
+  margin-top: 70px;
+  flex-grow: 1;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  max-width: 980px;
+  /* max-height: 980px; */
+}
+#profile .avatar {
+  flex-grow: 1;
+  max-width: 50%;
+}
+#profile .information {
+  flex-grow: 1;
+  text-align: left;
+  padding-left: 50px;
+}
+#profile .avatar img {
+  width: 80%;
+  border-radius: 100%;
+  border: 3px solid gray;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
+    rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+#profile .information button {
+  cursor: pointer;
+  padding: 15px 40px;
+  border: none;
+  background-color: yellow;
+  font-size: 1.5rem;
+  font-weight: 500;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+#profile .information h2 {
+  font-size: 2.5rem;
+}
+#profile .information h3 {
+  opacity: 60%;
+  margin-bottom: 30px;
+}
+.socail-media {
+  margin-top: 20px;
+  font-size: 1.5rem;
+  color: pink;
+}
+.socail-media i {
+  color: rgb(43, 16, 252);
+}
+#footer {
+  gap: 70px;
+  display: flex;
+  margin-top: 100px;
+}
+.data {
+  display: flex;
+}
+.frontend {
+  padding-right: 60px;
+}
+.btn {
+  background-color: blue;
+  padding: 10px;
+  border-radius: 10px;
+  margin-top: 3rem;
+  color: white;
+  cursor: pointer;
+}
+.btn.html {
+  background-color: rgb(82, 224, 0);
+}
+.text {
+  margin-top: 20px;
+}
+.text p {
+  font-size: 20px;
+  color: rgb(46, 49, 52);
+}
